@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import generateNFT from "../common/handleIPFS";
 import { Provider, Network } from "aptos";
 import { useWallet } from "@aptos-labs/wallet-adapter-react";
-import MODULE_ADDRESS from "../common/constants";
+import {MODULE_ADDRESS} from "../common/constants";
 import TextField from "@mui/material/TextField";
 
 export const songUpload = () => {
